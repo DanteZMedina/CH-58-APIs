@@ -17,6 +17,5 @@ def main():
     number = input("Dame tu numero de la suerte: ")
     trivia_fetch(number)
 
-
 if __name__=="__main__":
   main()
