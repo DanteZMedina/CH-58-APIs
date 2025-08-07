@@ -6,13 +6,12 @@ def trivia_fetch(number):
     if trivia_fetch.status_code == 200:
        print("Suertudo, tu numero tiene suerte " )
        content = trivia_fetch.json()
-       return content, print("Información de la trivia", content)
+       return content
     else:
         print("Lo siento, no se pudo obtener la trivia.")
         return {}   
 
 #como puedo retornar un diccionario?
-
     
 def main():
     number = input("Dame tu numero de la suerte: ")
